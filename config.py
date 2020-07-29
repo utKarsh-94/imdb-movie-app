@@ -5,3 +5,6 @@ class Config:
 
   SECRET_KEY='IMDB_APP'
   JWT_ERROR_MESSAGE_KEY = 'message'
+
+  HOST='localhost'
+  PORT=5000

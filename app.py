@@ -43,6 +43,6 @@ def register_resources(app):
   api.add_resource(TokenResource, '/token')
 
 
-if __name__ == "__main__":
-  app = create_app()
-  app.run(host='localhost', port=5000, debug=True)
+# if __name__ == "__main__":
+#   app = create_app()
+#   app.run(host='localhost', port=5000)
